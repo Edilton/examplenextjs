@@ -7,18 +7,8 @@ export default function FirstPost() {
       <Head>
         <title>First Post</title>
       </Head>
-      <h1>First Post</h1>
-      <h2>
-      <Button>I just consumed some ⚡️Chakra!</Button>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
 
-        <Button as="a" target="_blank" variant="outline" href="https://chakra-ui.com">
-            Hello
-        </Button>
-            </h2>
-            <Box p={4} display={{ md: "flex" }}>
+      <Box p={4} display={{ md: "flex" }}>
         <Box flexShrink="0">
             <Image
             rounded="lg"
@@ -45,14 +35,16 @@ export default function FirstPost() {
             fontWeight="semibold"
             href="#"
             >
-            Finding customers for your new business
+           Exemplo de post
             </Link>
             <Text mt={2} color="gray.500">
-            Getting a new business off the ground is a lot of hard work. Here are five
-            ideas you can use to find your first customers.
+            Esse é primeiro post em next js.
             </Text>
         </Box>
-</Box>
+     </Box>
+     <Link href="/">
+          <a>Voltar</a>
+        </Link>
     </>
     
   )
